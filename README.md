@@ -1,6 +1,6 @@
 # TEDSummary
-
-#References
+ TBD...
+# References
 [1] Takatomo Kano, Atsunori Ogawa, Marc Delcroix, and Shinji Watanabe "Attention-based Multi-hypothesis Fusion for Speech Summarization," Proc. ASRU, pp. –, 2021
 Citation
 @inproceedings{attention-fusion,
@@ -10,14 +10,14 @@ Citation
  pages={-}
  year = {2021}
 }
-#Install tools
+# Install tools
 Python 3.
 requests
 unidecode
 json
 tqdm
 unicodedata
-#How to run
+# How to run
 cd TEDSummary/
 python TEDListCrawler.py
 
