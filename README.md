@@ -1,5 +1,5 @@
 # TEDSummary
- TBD...
+TEDSummary is a speech summary corpus. It includes TED talks subtitle (Document), Title-Detail (Summary), speaker name (Meta info), MP4 URL, and utterance id. This script crawls the TEDTalk website to get the above information. This script does not supply audio data. However, you can use the utterance id to align TED-LIUM3 (https://www.openslr.org/51/) or extract audio from the MP4 file.
 # References
 [1] Takatomo Kano, Atsunori Ogawa, Marc Delcroix, and Shinji Watanabe "Attention-based Multi-hypothesis Fusion for Speech Summarization," Proc. ASRU, pp. –, 2021
 Citation
