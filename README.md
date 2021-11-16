@@ -3,8 +3,7 @@ TEDSummary is a speech summary corpus. It includes TED talks subtitle (Document)
 # References
 [1] Takatomo Kano, Atsunori Ogawa, Marc Delcroix, and Shinji Watanabe "Attention-based Multi-hypothesis Fusion for Speech Summarization," Proc. ASRU, pp. –, 2021
   
-  Citation
-  
+  Citation  
   @inproceedings{attention-fusion,  
   author = {Takatomo Kano and Atsunori Ogawa and Marc Delcroix and Shinji Watanabe},  
   title = {Attention-based Multi-hypothesis Fusion for Speech Summarization},  
@@ -24,7 +23,5 @@ cd TEDSummary/
 python TEDListCrawler.py
 
 #Outputs
-
-  telklist.json: URLs list for tedtalks.
-
-  ted_summary.json: Summarization dataset. That includes IDs, url, mp4 link, document, abstract, title, speaker name, and a key for Tedlium alignment.
+  telklist.json: URLs list for tedtalks.  
+  ted_summary.json: Summarization dataset. That includes summary IDs, TEDTalk URL, mp4 URL, document, abstract, title, speaker name, and uttrance id for Tedlium alignment.
