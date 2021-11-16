@@ -5,12 +5,12 @@ TEDSummary is a speech summary corpus. It includes TED talks subtitle (Document)
   
   Citation
   
-  @inproceedings{attention-fusion,
-  author = {Takatomo Kano and Atsunori Ogawa and Marc Delcroix and Shinji Watanabe},
-  title = {Attention-based Multi-hypothesis Fusion for Speech Summarization},
-  booktitle = {{ASRU 2021 - 2021 IEEE Automatic Speech Recoginition and Understanding Workshop (ASRU)}},
-  pages={-}
-  year = {2021}
+  @inproceedings{attention-fusion,  
+  author = {Takatomo Kano and Atsunori Ogawa and Marc Delcroix and Shinji Watanabe},  
+  title = {Attention-based Multi-hypothesis Fusion for Speech Summarization},  
+  booktitle = {{ASRU 2021 - 2021 IEEE Automatic Speech Recoginition and Understanding Workshop (ASRU)}},  
+  pages={-},  
+  year = {2021}  
   }
 # Install tools
 Python 3.
