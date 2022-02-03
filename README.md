@@ -24,4 +24,4 @@ python TEDListCrawler.py
 
 # Outputs
   telklist.json: URLs list for tedtalks.  
-  ted_summary.json: Summarization dataset. That includes summary IDs, TEDTalk URL, mp4 URL, document, abstract, title, speaker name, and uttrance id for Tedlium alignment.
+  ted_summary.json: Summarization dataset. That includes summary IDs, TEDTalk URL, mp4 URL, "document:not avaidable now", abstract, title, speaker name, and uttrance id for Tedlium alignment.
