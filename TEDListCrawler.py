@@ -33,7 +33,7 @@ def download_tedtalks_list(undata_from=None):
     while True:
         url="https://www.ted.com/talks/quick-list?page="+str(page_idx)
         print(url)
-        get_url_info = rget_requets(url)
+        get_url_info = get_requets(url)
         txt=get_url_info.text
         # end of ted talks
         txt=get_url_info.text
