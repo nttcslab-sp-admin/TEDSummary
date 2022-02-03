@@ -34,11 +34,8 @@ def download_tedtalks_list(undata_from=None):
         url="https://www.ted.com/talks/quick-list?page="+str(page_idx)
         print(url)
         get_url_info = get_requets(url)
-        txt=get_url_info.text
-        # end of ted talks
-        txt=get_url_info.text
-        get_url_info.close()
-        if "Sorry. We couldn't find a talk quite like that." in get_url_info.text:
+        
+        if "Sorry. We couldn't find a talk quite like that." in get_url_info.text or get_url_info.text is None :
             json.dump(talks, fp,indent=2)
             return 0
         elif "Error 429" in get_url_info.text:
