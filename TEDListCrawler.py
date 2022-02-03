@@ -66,9 +66,9 @@ def crawle_talks():
         if get_url_info is None:
             return 0
 
-        for i in get_url_info.text.split("\n"):
-            if i.startswith("<meta name=\"description\" content=\""):
-                abst=i.replace("<meta name=\"description\" content=\"","").replace("\"/>","")
+        for i in get_url_info.text.split("<"):
+            if i.startswith("meta name=\"description\" content=\""):
+                abst=i.replace("meta name=\"description\" content=\"","").replace("\"/>","")
                 return abst
         return None
         
@@ -124,7 +124,7 @@ def crawle_talks():
             data[idx]["speaker"]=speaker
             data[idx]["title"]=title.replace(speaker+": ","")
             data[idx]["abst"]=get_abst(url)
-            data[idx]["doc"]=get_transcript(url)
+            #data[idx]["doc"]=get_transcript(url)
     
             if "mp4" in data[idx]:
                 data[idx]["key"]=parse(data[idx]["mp4"])[0].split("/")[-1].split(".mp4")[0]
